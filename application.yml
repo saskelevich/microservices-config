@@ -1,5 +1,6 @@
 # COMMON APPLICATION PROPERTIES
-server.port: 8888
+server:
+  port: 8888
 # server:
   # start services on random port by default
   # port: 0
