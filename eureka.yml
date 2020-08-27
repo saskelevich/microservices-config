@@ -1,6 +1,11 @@
 ﻿server:
   port: 8761
 
+spring:
+  cloud:
+    config:
+      uri: http://192.168.0.134
+
 eureka:
   instance:
     hostname: localhost
