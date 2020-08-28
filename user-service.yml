@@ -16,3 +16,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://192.168.0.134:8761/eureka/
+
+user:
+  oauth:
+    clientId: R2dpxQ3vPrtfgF72
+    clientSecret: fDw7Mpkk5czHNuSRtmhGmAGL42CaxQB9
+    redirectUris: http://localhost:8082/login/oauth2/code/
+    username: root
+    password: root
