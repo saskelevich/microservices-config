@@ -13,18 +13,7 @@ spring:
     driverClassName: org.h2.Driver
 
 eureka:
+  password: password
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-#    instance:
-#      leaseRenewalIntervalInSeconds: 10
-#      metadataMap:
-#        instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${server.port}}}
-
-#user:
-#  oauth:
-#    clientId: R2dpxQ3vPrtfgF72
-#    clientSecret: fDw7Mpkk5czHNuSRtmhGmAGL42CaxQB9
-#    redirectUris: http://localhost:8082/login/oauth2/code/
-#    username: root
-#    password: root
+      defaultZone: http://user:${eureka.password}@localhost:8761/eureka/
