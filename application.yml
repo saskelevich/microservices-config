@@ -14,3 +14,8 @@
 # Temporary hack required by the Spring Boot 2 / Spring Cloud Finchley branch
 # Waiting issue https://github.com/spring-projects/spring-boot/issues/13042
 #spring.cloud.refresh.refreshable: false
+rabbit:
+  const:
+    queue_user: user:queue
+    topic_user: user:topic
+    user_service_queue: user_service:queue
