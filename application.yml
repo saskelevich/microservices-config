@@ -19,3 +19,4 @@ rabbit:
     queue_user: user:queue
     topic_user: user:topic
     user_service_queue: user_service:queue
+    registration_service_queue: registration_service:queue
