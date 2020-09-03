@@ -12,10 +12,6 @@ spring:
     username: user
     password:
     driverClassName: org.h2.Driver
-  h2:
-    console:
-      enabled: true
-      path: /h2
 
 eureka:
   client:
