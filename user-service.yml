@@ -7,7 +7,7 @@ spring:
       enabled: true
       path: /h2
   datasource:
-    url: jdbc:postgresql://localhost:5432/crew
+    url: jdbc:postgresql://localhost:5432/microservices_user_service
     username: postgres
     password: 23
 
