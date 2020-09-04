@@ -7,11 +7,9 @@ spring:
       enabled: true
       path: /h2
   datasource:
-    type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:h2:file:~/dataBase
-    username: user
-    password:
-    driverClassName: org.h2.Driver
+    url: jdbc:postgresql://localhost:5432/crew
+    username: postgres
+    password: 23
 
 eureka:
   client:
